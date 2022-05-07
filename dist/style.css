@@ -1,0 +1,44 @@
+body {
+  display: grid;
+  grid-template-rows: 1fr auto auto 1fr;
+  min-height: 100vh;
+  background: #a497c5;
+  color: #2e2c40;
+  font-size: 24px;
+}
+
+#result {
+  grid-row: 2;
+}
+
+svg {
+  display: block;
+}
+
+.content {
+  background: currentColor;
+  grid-row: 3;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+#regen {
+  background: #a497c5;
+  border: 2px solid transparent;
+  border-radius: 0.25rem;
+  color: inherit;
+  cursor: pointer;
+  display: inline-block;
+  font-family: sans-serif;
+  font-weight: 900;
+  padding: 0.5rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.filler {
+  background: currentColor;
+  grid-row: 4;
+}
